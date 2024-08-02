@@ -9,4 +9,6 @@ func main() {
 	card = 10
 	fmt.Println("Message: ", card)
 	fmt.Println("After adding on github.")
+
+	fmt.Println("2nd august")
 }
