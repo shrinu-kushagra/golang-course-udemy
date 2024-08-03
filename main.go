@@ -2,13 +2,15 @@ package main
 
 import "fmt"
 
-var card int
-
 func main() {
 	fmt.Println("Hello world")
-	card = 10
+	card := newType()
 	fmt.Println("Message: ", card)
 	fmt.Println("After adding on github.")
 
 	fmt.Println("2nd august")
+}
+
+func newType() string {
+	return "It's a function.:)"
 }
