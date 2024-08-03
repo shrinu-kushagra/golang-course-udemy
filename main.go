@@ -3,12 +3,15 @@ package main
 import "fmt"
 
 func main() {
+
 	fmt.Println("Hello world")
 	card := newType()
 	fmt.Println("Message: ", card)
 	fmt.Println("After adding on github.")
+	fmt.Println(newType())
 
-	fmt.Println("2nd august")
+	printState()
+
 }
 
 func newType() string {
