@@ -11,7 +11,7 @@ func main() {
 	fmt.Println(newType())
 
 	printState()
-
+    loops()
 }
 
 func newType() string {
