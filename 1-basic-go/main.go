@@ -12,6 +12,7 @@ func main() {
 
 	printState()
     loops()
+	switchcase()
 }
 
 func newType() string {
