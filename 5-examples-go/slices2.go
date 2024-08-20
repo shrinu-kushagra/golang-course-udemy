@@ -13,4 +13,5 @@ func main() {
 	fmt.Printf("capacity = %d\n", cap(myslice)) //here cap func returns capacity of myslice
 	array()
 	fibo()
+	pyramid()
 }
