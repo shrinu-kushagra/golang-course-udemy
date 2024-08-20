@@ -12,4 +12,5 @@ func main() {
 	fmt.Printf("length = %d\n", len(myslice))   //here len func returns length of myslice
 	fmt.Printf("capacity = %d\n", cap(myslice)) //here cap func returns capacity of myslice
 	array()
+	fibo()
 }

@@ -6,5 +6,5 @@ import (
 
 func array() {
 	var cars = [4]string{"Volvo", "BMW", "Ford", "Mazda"}
-	fmt.Print(cars)
+	fmt.Println(cars)
 }
